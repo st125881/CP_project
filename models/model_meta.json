@@ -1,0 +1,62 @@
+{
+  "features": [
+    "energy_difference",
+    "time_temperature_integrated",
+    "dc_internal_resistance",
+    "charge_energy",
+    "temperature_minimum",
+    "temperature_range"
+  ],
+  "best_params": {
+    "n_estimators": 400,
+    "min_samples_split": 5,
+    "min_samples_leaf": 4,
+    "max_features": 0.8,
+    "max_depth": null
+  },
+  "heldout_metrics": {
+    "MAE": 151.2390258916223,
+    "RMSE": 240.77986294665482,
+    "R2": 0.6063022938025084,
+    "n_train": 107,
+    "n_test": 27
+  },
+  "n_batteries_final_fit": 134,
+  "sklearn_version": "1.9.1",
+  "feature_ranges": {
+    "energy_difference": [
+      0.370591616,
+      0.504696712,
+      0.4226482589999999
+    ],
+    "time_temperature_integrated": [
+      1484.2422116489588,
+      2747.34841805013,
+      2568.3338308919274
+    ],
+    "dc_internal_resistance": [
+      0.013318206574767786,
+      0.020373181626200637,
+      0.016491397935897063
+    ],
+    "charge_energy": [
+      3.621101096,
+      3.8137949300000002,
+      3.7417804869999998
+    ],
+    "temperature_minimum": [
+      27.96432231903076,
+      32.140950736999514,
+      30.302252235412595
+    ],
+    "temperature_range": [
+      0.6102025985717776,
+      8.427981300354004,
+      6.0204983139038095
+    ]
+  },
+  "target_range": [
+    171.0,
+    2237.0
+  ]
+}
